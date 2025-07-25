@@ -1,0 +1,256 @@
+
+h1 {
+   background-image:url('https://wallpaperaccess.com/full/7066845.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   text-decoration-style: solid;
+   transform:translateY(-20px);
+   font-weight: 400;
+   z-index: 1;
+}
+.Yummy {
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 100px;
+}
+.pizza_1,.biriyani_1,.burger_1,.chicken_1,.dosa_1,.rolls_1,.cake_1,.mc_1,.dom_1,.bk_1,.kfc_1,.hut_1,.subway_1,.haldi_1{
+   border-radius: 50%;
+}
+/* HERE WE ARE PLACING THE PICTURES CORRECTLY WITH THE RESPECTIVE POSITION*/ 
+
+.pizza_1,.mc_1,.margherita_1{
+   margin-left: 25px;
+}
+
+.biriyani_1,.dom_1,.stroopwafel_1{
+   position: absolute;
+   left: 235px;
+}
+.burger_1,.bk_1,.chilaquiles_1{
+   position:absolute;
+   left:450px;
+}
+.chicken_1,.kfc_1,.rats_1{
+   position: absolute;
+   left: 675px;
+}
+.dosa_1,.hut_1,.ham_1{
+   position: absolute;
+   left:900px;
+}
+.rolls_1,.subway_1,.lassagne_1{
+   position: absolute;
+   left:1125px;
+}
+.cake_1,.haldi_1,.laming_1{
+   position: absolute;
+   left:1340px;
+}
+/* HERE WE ARE PLACING THE INTERNATIONAL DISHES CORRECTLY */
+.Margherita{
+   position: absolute;
+   left: 50px;
+}
+.Stroopwafel{
+   position: absolute;
+   left:265px;
+}
+.Chilaquiles{
+   position: absolute;
+   left:480px;
+}
+.rats{
+   position: absolute;
+   left: 715px;
+}
+.ham{
+   position: absolute;
+   left: 925px;
+}
+.Lassagne{
+   position: absolute;
+   left: 1160px;
+}
+.Laming{
+   position: absolute;
+   left: 1380px;
+}
+/*HERE WE ARE GOING TO ADD THE TOP BRANDS TEXT POSITION */
+.Mc{
+   position: absolute;
+   left: 60px;
+}
+.Dom{
+   position: absolute;
+   left:250px;
+}
+.BK{
+   position: absolute;
+   left: 490px;
+}
+.KFC{
+   position: absolute;
+   left:740px;
+}
+.Hut{
+   position: absolute;
+   left:930px;
+}
+.Subway{
+   position: absolute;
+   left:1175px;
+}
+.Haldi{
+   position: absolute;
+   left: 1375px;;
+}
+/* HERE WE ARE GOIMG TO ADD THE FOOD ITEMS TEXT POISTION*/
+.Pizza,.Biriyani,.BURGER,.Chicken,.Dosa,.Rolls,.Cake,.Mc,.Dom,.BK,.KFC,.Hut,.Subway,.Haldi,.Margherita,.Stroopwafel,.Chilaquiles,.rats,.ham,.Lassagne,.Laming{
+   font-size: 20px;
+}
+.Pizza{
+  position: absolute;
+  left: 85px;
+}
+.Biriyani{
+   position: absolute;
+   left: 275px;
+}
+.BURGER{
+   position:absolute;
+   left: 500px;
+}
+.Chicken{
+   position: absolute;
+   left: 725px;
+}
+.Dosa{
+   position: absolute;
+   left: 950px;
+}
+.Rolls{
+   position:absolute;
+   left:1175px;
+}
+.Cake{
+   position:absolute;
+   left:1400px;
+}
+.margherita_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+   
+.stroopwafel_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.chilaquiles_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.rats_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.ham_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.lassagne_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.laming_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+#pizzas_1{
+   margin-left: 35px;
+
+}
+#burgers_1{
+   position:absolute;
+   left: 415px;
+}
+#food_1{
+   position:absolute;
+   left: 775px;
+}
+#food_2{
+   position:absolute;
+   left: 1150px;
+}
+iframe:hover{
+   transform:scale(1.1);
+   transition:1s;
+   z-index:2;
+}
+#pizza_1:hover{
+   transform:scale(1.1);
+   transition:1s;
+   z-index:2;
+
+}
+audio{
+   position: absolute;
+   left:650px;
+}
+
+
+h2 {
+   
+   font-size: 50px;
+}
+.hero {
+   width: 30%;
+   font-family: sans-serif;
+   position: absolute ;
+   bottom:600px;right:75px;
+   z-index:3;
+}
+nav {
+   width:84%;
+   margin: auto;
+   padding: 20px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+}
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 10px 20px ;
+} 
+nav ul li a{
+   text-decoration: none;
+   color: #fefdfd;
+   font-size: 25px;
+   padding: 10px;
+}
+nav ul li a:hover{
+   color: rgb(216, 174, 174);
+}
+
+div h2 {
+   position: absolute;
+   left:75px;
+
+}
+option{
+   color:rgb(244, 103, 103);
+}
+#eo{
+   font-size: 20px;
+}

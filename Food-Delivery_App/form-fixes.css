@@ -1,0 +1,20 @@
+/* Added for form label and button styling moved from inline styles */
+.email-label,
+.delivery-type-label,
+.payment-method-label {
+    font-size: 25px;
+}
+
+.submit-btn {
+    font-size: 20px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    border: none;
+    background: #ff9800;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.submit-btn:hover {
+    background: #e65100;
+}

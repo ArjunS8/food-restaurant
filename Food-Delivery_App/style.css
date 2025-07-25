@@ -1,0 +1,410 @@
+/* Modern Home Page Styles */
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  background: #fff8f0;
+  color: #222;
+}
+.subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -30px;
+  color: #ff9800;
+}
+.media-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff3e0;
+  padding: 2rem 0 1rem 0;
+  margin-bottom: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.media-frame h2 {
+  margin-bottom: 1rem;
+  color: #e65100;
+}
+.food-varieties-section, .top-brands-section, .international-dishes-section, .order-section, .reviews-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.food-varieties-section h2, .top-brands-section h2, .international-dishes-section h2, .order-section h2, .reviews-section h2 {
+  text-align: center;
+  color: #ff9800;
+  margin-bottom: 1.5rem;
+}
+.food-grid, .brands-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.food-grid a, .brands-grid a, .food-grid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+  background: #fff8e1;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.food-grid a:hover, .brands-grid a:hover, .food-grid div:hover {
+  transform: scale(1.07);
+  box-shadow: 0 4px 24px rgba(255,152,0,0.15);
+}
+.food-grid img, .brands-grid img {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.food-grid span, .brands-grid span {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.reviews-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.reviews-grid iframe {
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  background: #fff;
+}
+.order-section {
+  background: #fffde7;
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.order-form label {
+  font-weight: 600;
+  color: #e65100;
+}
+.order-form input, .order-form select, .order-form textarea {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.order-form textarea {
+  resize: vertical;
+}
+.order-form fieldset {
+  border: 1px solid #ff9800;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+.order-form legend {
+  color: #e65100;
+  font-weight: bold;
+}
+.submit-btn {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+.submit-btn:hover {
+  background: #e65100;
+}
+@media (max-width: 900px) {
+  .food-grid, .brands-grid, .reviews-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .order-form {
+    max-width: 95vw;
+  }
+}
+@media (max-width: 600px) {
+  .media-frame iframe {
+    width: 95vw;
+    height: 220px;
+  }
+  .food-grid img, .brands-grid img {
+    width: 80px;
+    height: 80px;
+  }
+  .order-section, .food-varieties-section, .top-brands-section, .international-dishes-section, .reviews-section {
+    padding: 0.5rem;
+  }
+}
+h1 {
+   background-image:url('https://wallpaperaccess.com/full/7066845.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   text-decoration-style: solid;
+   transform:translateY(-20px);
+   font-weight: 400;
+   z-index: 2;
+}
+.Yummy {
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 100px;
+}
+.pizza_1,.biriyani_1,.burger_1,.chicken_1,.dosa_1,.rolls_1,.cake_1,.mc_1,.dom_1,.bk_1,.kfc_1,.hut_1,.subway_1,.haldi_1{
+   border-radius: 50%;
+}
+/* HERE WE ARE PLACING THE PICTURES CORRECTLY WITH THE RESPECTIVE POSITION*/ 
+
+.pizza_1,.mc_1,.margherita_1{
+   transform: translateX(75px);
+}
+
+.biriyani_1,.dom_1,.stroopwafel_1{
+   position: absolute;
+   left: 300px;
+}
+.burger_1,.bk_1,.chilaquiles_1{
+   position:absolute;
+   left:525px;
+}
+.chicken_1,.kfc_1,.rats_1{
+   position: absolute;
+   left: 750px;
+}
+.dosa_1,.hut_1,.ham_1{
+   position: absolute;
+   left:975px;
+}
+.rolls_1,.subway_1,.lassagne_1{
+   position: absolute;
+   left:1200px;
+}
+.cake_1,.haldi_1,.laming_1{
+   position: absolute;
+   left:1425px;
+}
+/* HERE WE ARE PLACING THE INTERNATIONAL DISHES CORRECTLY */
+.Margherita{
+   position: absolute;
+   left: 100px;
+}
+.Stroopwafel{
+   position: absolute;
+   left:325px;
+}
+.Chilaquiles{
+   position: absolute;
+   left:550px;
+}
+.rats{
+   position: absolute;
+   left: 785px;
+}
+.ham{
+   position: absolute;
+   left: 1000px;
+}
+.Lassagne{
+   position: absolute;
+   left: 1240px;
+}
+.Laming{
+   position: absolute;
+   left: 1450px;
+}
+/*HERE WE ARE GOING TO ADD THE TOP BRANDS TEXT POSITION */
+.Mc{
+   position: absolute;
+   left: 100px;
+}
+.Dom{
+   position: absolute;
+   left:300px;
+}
+.BK{
+   position: absolute;
+   left: 540px;
+}
+.KFC{
+   position: absolute;
+   left:815px;
+}
+.Hut{
+   position: absolute;
+   left:1025px;
+}
+.Subway{
+   position: absolute;
+   left:1250px;
+}
+.Haldi{
+   position: absolute;
+   left: 1450px;;
+}
+/* HERE WE ARE GOIMG TO ADD THE FOOD ITEMS TEXT POISTION*/
+.Pizza,.Biriyani,.BURGER,.Chicken,.Dosa,.Rolls,.Cake,.Mc,.Dom,.BK,.KFC,.Hut,.Subway,.Haldi,.Margherita,.Stroopwafel,.Chilaquiles,.rats,.ham,.Lassagne,.Laming{
+   font-size: 25px;
+}
+.Pizza{
+  position: absolute;
+  left: 150px;
+}
+.Biriyani{
+   position: absolute;
+   left: 350px;
+}
+.BURGER{
+   position:absolute;
+   left: 575px;
+}
+.Chicken{
+   position: absolute;
+   left: 800px;
+}
+.Dosa{
+   position: absolute;
+   left: 1025px;
+}
+.Rolls{
+   position:absolute;
+   left:1250px;
+}
+.Cake{
+   position:absolute;
+   left:1475px;
+}
+.margherita_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+   
+.stroopwafel_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.chilaquiles_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.rats_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.ham_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.lassagne_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+.laming_1:hover{
+   transform: scale(1.3);
+   transition:1s;
+   z-index:2;
+}
+#pizza_1{
+   transform: translateX(75px);
+
+}
+#burger_1{
+   position:absolute;
+   left:500px;
+}
+#food_1{
+   position:absolute;
+   left: 900px;
+}
+#food_2{
+   position:absolute;
+   left: 1300px;
+}
+iframe:hover{
+   transform:scale(1.1);
+   transition:1s;
+   z-index:2;
+}
+#pizza_1:hover{
+   transform:scale(1.1);
+   transition:1s;
+   z-index:2;
+
+}
+audio{
+   position: absolute;
+   left:650px;
+}
+
+
+h2 {
+   
+   font-size: 50px;
+}
+.hero {
+   width: 25%;
+   font-family: sans-serif;
+   position: absolute ;
+   bottom:700px;right: 200px;
+   z-index: 3;
+}
+nav {
+   width:84%;
+   margin: auto;
+   padding: 20px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+}
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 10px 20px ;
+} 
+nav ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 25px;
+   padding: 10px;
+}
+nav ul li a:hover{
+   color: rgb(216, 174, 174);
+}
+
+div h2 {
+   position: absolute;
+   left: 100px;
+
+}
+option{
+   color:rgb(244, 103, 103);
+}
+#eo{
+   font-size: 20px;
+}
